@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "custom-database-server": {
+      "command": "python",
+      "args": [
+        "C:/Users/AADITYA/MCP/custom-mcp-server/run_server.py"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "INFO"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_records",
+        "search_records"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# MCP Server Dependencies
+mcp>=1.0.0
+tinydb>=4.8.0
+
+# Standard library modules (included for clarity)
+# asyncio - built into Python 3.7+
+# json - built into Python
+# logging - built into Python
+# datetime - built into Python
+
+# Development and Testing Dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

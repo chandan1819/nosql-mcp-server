@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "custom-database-server": {
+      "command": "python",
+      "args": [
+        "custom-mcp-server/run_server.py"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "INFO",
+        "PYTHONPATH": "custom-mcp-server/src"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_records",
+        "search_records",
+        "create_record",
+        "update_record",
+        "delete_record"
+      ]
+    }
+  }
+}
